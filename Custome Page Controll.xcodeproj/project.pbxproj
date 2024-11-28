@@ -16,7 +16,7 @@
 		A15896842CEFA8BD00BFB3E4 /* Custome_Page_ControllTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15896832CEFA8BD00BFB3E4 /* Custome_Page_ControllTests.swift */; };
 		A158968E2CEFA8BD00BFB3E4 /* Custome_Page_ControllUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158968D2CEFA8BD00BFB3E4 /* Custome_Page_ControllUITests.swift */; };
 		A15896902CEFA8BD00BFB3E4 /* Custome_Page_ControllUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158968F2CEFA8BD00BFB3E4 /* Custome_Page_ControllUITestsLaunchTests.swift */; };
-		A158969E2CEFB23F00BFB3E4 /* WOPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158969C2CEFB23F00BFB3E4 /* WOPageControl.swift */; };
+		A158969E2CEFB23F00BFB3E4 /* RKPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A158969C2CEFB23F00BFB3E4 /* RKPageControl.swift */; };
 		A15896AC2CF57DC500BFB3E4 /* ColCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A15896AB2CF57DC500BFB3E4 /* ColCell.xib */; };
 		A15896AD2CF57DC500BFB3E4 /* ColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15896AA2CF57DC500BFB3E4 /* ColCell.swift */; };
 /* End PBXBuildFile section */
@@ -52,7 +52,7 @@
 		A15896892CEFA8BD00BFB3E4 /* Custome Page ControllUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custome Page ControllUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A158968D2CEFA8BD00BFB3E4 /* Custome_Page_ControllUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custome_Page_ControllUITests.swift; sourceTree = "<group>"; };
 		A158968F2CEFA8BD00BFB3E4 /* Custome_Page_ControllUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Custome_Page_ControllUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A158969C2CEFB23F00BFB3E4 /* WOPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WOPageControl.swift; sourceTree = "<group>"; };
+		A158969C2CEFB23F00BFB3E4 /* RKPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKPageControl.swift; sourceTree = "<group>"; };
 		A15896AA2CF57DC500BFB3E4 /* ColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColCell.swift; sourceTree = "<group>"; };
 		A15896AB2CF57DC500BFB3E4 /* ColCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +107,7 @@
 			children = (
 				A15896A82CF57D7C00BFB3E4 /* StoryBoard */,
 				A15896A72CF57A8900BFB3E4 /* AppBase */,
-				A158969D2CEFB23F00BFB3E4 /* WOPageControl */,
+				A158969D2CEFB23F00BFB3E4 /* RKPageControl */,
 				A15896AF2CF6C93F00BFB3E4 /* VC */,
 				A15896AE2CF6C89600BFB3E4 /* Resources */,
 				A158967A2CEFA8BD00BFB3E4 /* Info.plist */,
@@ -132,12 +132,12 @@
 			path = "Custome Page ControllUITests";
 			sourceTree = "<group>";
 		};
-		A158969D2CEFB23F00BFB3E4 /* WOPageControl */ = {
+		A158969D2CEFB23F00BFB3E4 /* RKPageControl */ = {
 			isa = PBXGroup;
 			children = (
-				A158969C2CEFB23F00BFB3E4 /* WOPageControl.swift */,
+				A158969C2CEFB23F00BFB3E4 /* RKPageControl.swift */,
 			);
-			path = WOPageControl;
+			path = RKPageControl;
 			sourceTree = "<group>";
 		};
 		A15896A72CF57A8900BFB3E4 /* AppBase */ = {
@@ -319,7 +319,7 @@
 				A15896712CEFA8BB00BFB3E4 /* ViewController.swift in Sources */,
 				A158966D2CEFA8BB00BFB3E4 /* AppDelegate.swift in Sources */,
 				A15896AD2CF57DC500BFB3E4 /* ColCell.swift in Sources */,
-				A158969E2CEFB23F00BFB3E4 /* WOPageControl.swift in Sources */,
+				A158969E2CEFB23F00BFB3E4 /* RKPageControl.swift in Sources */,
 				A158966F2CEFA8BB00BFB3E4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

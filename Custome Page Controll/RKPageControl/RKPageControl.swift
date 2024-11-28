@@ -1,8 +1,8 @@
 //
-//  SCPageControl_normal.swift
+//  RKPageControl.swift
 //  Pods
 //
-//  Created by Myoung on 2017. 4. 27..
+//  Created by Richa Rich on 21/11/24.
 //
 //
 
